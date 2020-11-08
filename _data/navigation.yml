@@ -1,0 +1,15 @@
+main:
+  # - title: Aloud!
+  #   url: /aloud/
+  # - title: +Clipboard
+  #   url: /clipboard/
+  # - title: Cantonese
+  #   url: /chime-yuet/
+  # - title: Pinyin
+  #   url: /chime-pinyin/
+  # - title: Posts
+  #   url: /posts/
+  - title: Apps
+    url: /apps/
+  - title: About Us
+    url: /about-us/

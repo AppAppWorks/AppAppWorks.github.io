@@ -1,0 +1,113 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: AppAppWorks
+email: info@appappworks.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: appappworks
+# github_username:  jekyll
+
+# Build settings
+remote_theme: "mmistakes/minimal-mistakes@4.21.0"
+minimal_mistakes_skin: "mint"
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+title_separator: "|"
+subtitle: "Works on excellent apps"
+description: "The official website of AppAppWorks"
+url: "https://appappworks.com"
+repository: "AppAppWorks/appappworks.github.io"
+head_scripts:
+  # - 
+logo: "/assets/images/logo.png"
+# comments:
+#   provider: "facebook"
+#   facebook:
+#     num_posts: 10
+#     colorscheme: "dark"
+# search: true
+
+social:
+  type: Organization
+  links:
+    - "https://www.facebook.com/appappworks"
+    - "https://twitter.com/appappworks"
+
+footer:
+  links:
+    - label: "App Store"
+      icon: "fab fa-fw fa-app-store"
+      url: "https://itunes.apple.com/developer/id777529458"
+    - label: "Play Store"
+      icon: "fab fa-fw fa-google-play"
+      url: "https://play.google.com/store/apps/dev?id=8091176219575124885"
+    - label: Email
+      icon: "fa fa-envelope"
+      url: "mailto:info@appappworks.com"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/appappworks"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/appappworks"
+
+compress_html:
+  clippings: all
+  ingore:
+    envs: development
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      types: posts
+    values:      
+      layout: single      
+      read_time: single
+      # comments: true
+      share: true
+      related: true
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
