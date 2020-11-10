@@ -9,7 +9,7 @@ header:
     - label: "App Store"
       url: "https://itunes.apple.com/developer/id777529458"
     - label: "Google Play"
-      url: "https://itunes.apple.com/developer/id777529458"
+      url: "https://play.google.com/store/apps/dev?id=8091176219575124885"
 excerpt: "We aim to develop the best tool apps for you, come visit us on app stores!"
 intro:
   - excerpt: "Have a look at our apps, you may find one that suits your needs :)"
