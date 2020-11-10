@@ -1,7 +1,16 @@
 ---
 layout: splash
 author_profile: true
-excerpt: "We aim to develop the best tool apps for you, come visit us on [App Store](https://itunes.apple.com/developer/id777529458) and [Google Play](https://play.google.com/store/apps/dev?id=8091176219575124885)!"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/headerimage.png
+  actions:
+    - label: "App Store"
+      url: "https://itunes.apple.com/developer/id777529458"
+    - label: "Google Play"
+      url: "https://itunes.apple.com/developer/id777529458"
+excerpt: "We aim to develop the best tool apps for you, come visit us on app stores!"
 intro:
   - excerpt: "Have a look at our apps, you may find one that suits your needs :)"
 feature_row:
