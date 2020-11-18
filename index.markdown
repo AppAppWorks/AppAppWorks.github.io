@@ -26,7 +26,7 @@ feature_row:
     excerpt: "Copy and paste, capture and save! Super-boost your clipboard!"
     url: /clipboard
     btn_class: "btn--inverse"
-  - image_path: /cheque-kit/assets/icon.png
+  - image_path: /cheque-kit/assets/appicon.png
     alt: "Cheque-kit"
     title: "Cheque-kit"
     excerpt: "Convert number to words instantly, cheque writing made easy!"
